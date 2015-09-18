@@ -1,5 +1,9 @@
 html, body {
-  font-family: 'Anton', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f0909;
+  text-align: center;
+  background-color: #f3f2ee;
 }
 a { text-decoration: none; }
 .btn {
@@ -37,4 +41,11 @@ a { text-decoration: none; }
   color: #fff;
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.content {
+  display: inline-block;
+  margin: 0 auto;
 }
