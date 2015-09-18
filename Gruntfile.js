@@ -3,7 +3,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     inline: {
       dist: {
-        src: 'index.html'
+        src: 'index.htm',
+        dest: 'index.html'
       }
     }
   });
