@@ -49,3 +49,6 @@ a { text-decoration: none; }
   display: inline-block;
   margin: 0 auto;
 }
+.block-img {
+  max-width: 100%;
+}
