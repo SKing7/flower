@@ -3,8 +3,18 @@ html, body {
   line-height: 1.5;
   color: #1f0909;
   text-align: center;
-  background-color: #f3f2ee;
+  background-color: #fff;
 }
+body {
+  padding: 0 15px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
 a { text-decoration: none; }
 .btn {
   display: inline-block;
@@ -51,4 +61,9 @@ a { text-decoration: none; }
 }
 .block-img {
   max-width: 100%;
+}
+.footer-bottom {
+  margin-bottom: 30px;
+  font-size: 12px;
+  color: #777;
 }
